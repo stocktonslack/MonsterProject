@@ -18,7 +18,7 @@ public class MonsterView
 		JOptionPane.showMessageDialog(null, "It's name is " + baseController.getMyMonster().getName());
 		JOptionPane.showMessageDialog(null, "It has" + baseController.getMyMonster().getHairCount()+ "Hairs");
 		JOptionPane.showMessageDialog(null, "It also has " + baseController.getMyMonster().getNumberOfLegs() + " Legs");
-		JOptionPane.showMessageDialog(null, "My monster has the best " + 
+		JOptionPane.showMessageDialog(null, "My monster has the best " + baseController.getMyMonster().getArmCount() + " Arms"); 
 		
 	}
 }
